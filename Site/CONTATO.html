@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+ <link rel="stylesheet" type="text/css" href="style.css"/>
+ <meta charset="UTF-8"/>
+ <title>Contato</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+ <header>
+   <h1>HGD</h1>
+ </header>
+
+ <section>
+  <nav>
+   <ul>
+    <li><h4><a href="CADASTRO.html">HOME</a></h4></li>
+	<li><h4><a href="CADASTRO.html">CADASTRO</a></h4></li>
+	<li><h4><a href="LOGIN.html">LOGIN</a></h4></li>
+	<li><h4><a href="PESQUISAR.html">PESQUISAR</a></h4></li>
+   </ul>
+ </nav>
+
+ <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+ <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+ <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+ <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+ <input type="hidden" name="email" value="henrique0521@hotmail.com">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+ 
+ <div>
+  <label>Nome:</label>
+  <input type="text" size="30" name="nome"/> 
+ </div>   
+ <div>
+  <label>E-mail:</label>
+  <input type="text" size="30" name="replyto"/> 
+ </div> 
+ <div>
+  <label>Comentários:</label>
+  <input type="text" size="35" name="Comentarios"/> 
+ </div>  
+ <input type="submit" name="BTEnvia" value="Enviar"> 
+ <input type="reset" name="BTApaga" value="Apagar"> </p> 
+ </form>
+ </section>
+
+ <footer>
+  <h2>Copyright &copy; Henrique G Dias 2019.</h2>
+ </footer>
+
+</body>
+</html> 
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+ <link rel="stylesheet" type="text/css" href="style.css"/>
+ <meta charset="UTF-8"/>
+ <title>Cadastro</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+ <header>
+   <h1>HGD</h1>
+ </header>
+
+ <section>
+  <nav>
+   <ul>
+    <li><h4><a href="index.html">HOME</a></h4></li>
+	<li><h4><a href="LOGIN.html">LOGIN</a></h4></li>
+	<li><h4><a href="CONTATO.html">CONTATO</a></h4></li>
+	<li><h4><a href="PESQUISAR.html">PESQUISAR</a></h4></li>
+   </ul>
+ </nav>
+ 
+ <form enctype="multipart/form-dados" method="POST" action="cadastro.php">
+    <div>
+	  <label>Nome:</label>
+	  <input type="text" required="required"/>
+	</div>
+    <div>
+      <label>CPF:</label>
+      <input type="number" required="required"/>
+    </div>
+    <div>
+      <label>CEP:</label>
+      <input type="number"/>
+    </div>
+    <div>
+      <label>Usuário:</label>
+      <input type="text" required="required"/>
+    </div>
+    <div>
+      <label>Senha:</label>
+      <input type="password" required="required"/>
+    </div>
+	<div>
+    <button type="submit">OK</button>
+    <button type="reset">Limpar</button>
+	</div>
+ </form>	
+
+ 
+ </section>
+
+ <footer>
+  <h2>Copyright &copy; Henrique G Dias 2019.</h2>
+ </footer>
+
+</body>
+</html>
